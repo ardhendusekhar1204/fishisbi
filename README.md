@@ -3,7 +3,7 @@ cat her2wsifilespath.txt | xargs -I WSIFILE echo python sample_tiles.py --input_
 
 
 initial self-supervision resnet50
-python moco-v3/main_moco.py wsi_patches --moco-m-cos --crop-min=.2 --dist-url --dist-url 'tcp://127.0.0.1:10004' --multiprocessing-distributed --world-size 1 --rank 0
+python moco-self/main_moco.py wsi_patches --moco-m-cos --crop-min=.2 --dist-url --dist-url 'tcp://127.0.0.1:10004' --multiprocessing-distributed --world-size 1 --rank 0
 
 
 
