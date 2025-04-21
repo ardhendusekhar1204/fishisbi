@@ -12,6 +12,7 @@ For MoCoV3-based self-supervised learning, we use the implementation from [Faceb
 To begin, create and activate the virtual environment using the provided requirements.yaml:
 
 conda env create --prefix ./.conda -f requirements.yml
+
 conda activate ./.conda
 
 ## 2. 🧩 Patch Extraction from Whole Slide Images (WSIs)
