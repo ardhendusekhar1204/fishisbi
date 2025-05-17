@@ -1,4 +1,4 @@
-**This work focuses on classifying breast cancer whole slide images (WSIs) into two primary categories: HER2-positive and HER2-negative. In addition, it further addresses the challenging cases with equivocal HER2 2+ scores, by distinguishing them as either FISH-positive or FISH-negative.**
+**This work is an implementation of the paper "HER2 Status Prediction in Breast Cancer: A Weak Supervision and Contrastive Learning Approach on H&E Stains"(https://ieeexplore.ieee.org/document/10980857). It focuses on classifying breast cancer whole slide images (WSIs) into two primary categories: HER2-positive and HER2-negative. In addition, it further addresses the challenging cases with equivocal HER2 2+ scores, by distinguishing them as either FISH-positive or FISH-negative.**
 
 ## 📚 Acknowledgements
 This pipeline is inspired by the excellent work in the [AIRMEC/im4MEC repository](https://github.com/AIRMEC/im4MEC/tree/main).
